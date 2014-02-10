@@ -171,11 +171,12 @@ code {
 }
 
 pre {
-  padding: 20px;
+  padding: 10px;
   background: #fff;
   text-shadow: none;
-  overflow: auto;
+  overflow: visible;
   border: solid 1px #f2f2f2;
+  margin:0;
 }
 pre code {
   color: #2879d0;
@@ -183,6 +184,17 @@ pre code {
   border: none;
   padding: 0;
 }
+pre info {
+  color: #2879d0;
+  background-color: #fff;
+  border: none;
+  padding: 0;
+  font-size: 11px;
+  font-style: italic;
+  margin:0;
+  white-space:normal;
+}
+
 
 ul, ol, dl {
   margin-bottom: 20px;
@@ -206,7 +218,9 @@ table {
 }
 
 th {
-  font-weight: 500;
+  font-weight: bold;
+  background-color: #fff;
+  padding:5px;
 }
 
 td {
@@ -280,6 +294,7 @@ h4:before {
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2.8em;
+  padding-left:25px;
 }
 
 #main-content h5 {
